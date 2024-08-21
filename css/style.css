@@ -124,7 +124,7 @@ ul {
 .btn {
   font-size: 16px;
   font-weight: 500;
-  padding: 12px 35px;
+  padding: 5px 15px;
   color: white;
   border-radius: 40px;
   display: inline-block;
@@ -307,7 +307,7 @@ h3.my-profession {
 }
 
 .home-info p {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   font-size: 20px;
   color: var(--text-black-700);
 }
@@ -332,16 +332,7 @@ h3.my-profession {
   bottom: -40px;
 }
 
-.home-img::before {
-  content: '';
-  position: absolute;
-  height: 80px;
-  width: 80px;
-  border-top: 10px solid var(--skin-color);
-  border-left: 10px solid var(--skin-color);
-  left: 20px;
-  top: -40px;
-}
+
 
 /* ukuran foto */
 .home .home-img img {
@@ -770,7 +761,7 @@ h3.my-profession {
     max-width: 100%;
   }
 
- /*  .home .home-img {
+  /*  .home .home-img {
     display: none;
   } */
 }
