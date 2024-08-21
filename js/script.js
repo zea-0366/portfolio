@@ -15,3 +15,12 @@ for (let i = 0; i < totalNavList; i++) {
     this.classList.add("active")
   })
 }
+// toggler
+const navTogglerBtn = document.querySelector(".nav-toggler"),
+  aside = document.querySelector(".aside");
+navTogglerBtn.addEventListener("click", () => {
+  asideSectionTogglerBtn();
+})
+function asideSectionTogglerBtn() {
+  aside.classList.toggle("open");
+}
