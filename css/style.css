@@ -45,18 +45,11 @@ ul {
   background: var(--bg-black-900);
   min-height: 100vh;
   display: block;
+
   padding: 0 30px;
+
   opacity: 1;
-
 }
-
-.section.active {
-  z-index: 2;
-  opacity: 1;
-
-}
-
-
 
 .hidden {
   display: none !important;
@@ -346,7 +339,7 @@ h3.my-profession {
   width: 80px;
   border-top: 10px solid var(--skin-color);
   border-left: 10px solid var(--skin-color);
-  left: -20px;
+  left: 20px;
   top: -40px;
 }
 
@@ -354,7 +347,7 @@ h3.my-profession {
 .home .home-img img {
   margin: auto;
   border-radius: 5px;
-  height: 300px;
+  height: 200px;
 }
 
 /* About */
@@ -777,7 +770,7 @@ h3.my-profession {
     max-width: 100%;
   }
 
-  /* .home .home-img {
+ /*  .home .home-img {
     display: none;
   } */
 }
