@@ -16,3 +16,7 @@ for (let i = 0; i < totalNavList; i++) {
   })
 }
 // toggler
+
+// AKTIVASI FORM EMAIL 
+
+
