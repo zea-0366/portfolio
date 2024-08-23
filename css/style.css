@@ -728,6 +728,10 @@ footer {
 
 }
 
+a {
+  color: blue;
+}
+
 /* 02:16:04 */
 @media (max-width:1199px) {
   .aside {
