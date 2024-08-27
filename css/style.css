@@ -144,6 +144,9 @@ ul {
 }
 
 /* .aside */
+
+
+
 .aside {
   width: 270px;
   background: var(--bg-black-100);
@@ -330,6 +333,8 @@ h3.my-profession {
   margin: auto;
   border-radius: 5px;
   height: 200px;
+  margin-left: 100px;
+  margin-top: 40px;
 }
 
 /* About */
