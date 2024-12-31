@@ -32,7 +32,3 @@ function showSection(element)
    const target = element.getAttribute("href").split("#")[1];
    document.querySelector("#" ,target).classList.add("active")
 }
-
-
-
-
